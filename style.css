@@ -215,9 +215,14 @@ h2>span{
 		width: 40%;
 		margin: 2rem;
 	}
+
+	.card-btn{
+		margin-bottom: 0.5rem;
+	}
 }
 
 @media (max-width: 1100px){
+
 	.container{
 		justify-content: center;
 		width: 80%;
@@ -231,9 +236,14 @@ h2>span{
 	.cards{
 		justify-content: center;
 	}
+
 	.card{
 		width: 40%;
 		margin: 2rem;
+	}
+
+	.card-btn{
+		margin-bottom: 0.5rem;
 	}
 }
 
@@ -252,6 +262,10 @@ h2>span{
 	.card{
 		width: 50%;
 	}
+
+	.card-btn{
+		margin-bottom: 0.5rem;
+	}
 }
 
 @media (max-width: 1000px){
@@ -268,6 +282,10 @@ h2>span{
 
 	.card{
 		width: 50%;
+	}
+
+	.card-btn{
+		margin-bottom: 0.5rem;
 	}
 }
 
@@ -286,6 +304,30 @@ h2>span{
 	.card{
 		width: 70%;
 	}
+
+	.card-btn{
+		margin-bottom: 0.5rem;
+	}
+}
+
+@media (max-width: 414px){
+	.container{
+		justify-content: center;
+		width: 90%;
+		margin-bottom: -80rem;
+	}
+
+	.container-plan-selector{
+		width: 55%;
+	}
+
+	.card{
+		width: 110%;
+	}
+
+	.card-btn{
+		margin-bottom: 0.5rem;
+	}
 }
 
 @media (max-width: 375px){
@@ -302,5 +344,30 @@ h2>span{
 
 	.card{
 		width: 110%;
+	}
+
+	.card-btn{
+		margin-bottom: 0.5rem;
+	}
+}
+
+@media (max-width: 320px){
+
+	.container{
+		justify-content: center;
+		width: 100%;
+		margin-bottom: -85rem;
+	}
+
+	.container-plan-selector{
+		width: 55%;
+	}
+
+	.card{
+		width: 110%;
+	}
+
+	.card-btn{
+		margin-bottom: 0.5rem;
 	}
 }
