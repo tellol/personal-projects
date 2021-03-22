@@ -134,7 +134,11 @@ hr {
 
 .card-title{
 	font-size: 1.5rem;
-	margin-bottom: 1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-family: Helvetica;
+	font-weight: 800;
+
 }
 
 .card-price{
