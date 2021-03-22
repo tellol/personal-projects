@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*:focus{
+	outline: none;
+}
+
+ul{
+	list-style: none;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #5B57F2;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	text-align: center;
+	width: 1100px;
+}
+
+h1.title{
+	margin-bottom: 1.5rem;
+	font-family: Helvetica;
+	font-weight: 800; 
+}
+
+hr {
+  	height: 5px;
+  	width: 5%;
+  	margin: auto;
+  	background-color: #24C380;
+  	margin-bottom: 1.5rem;
+  	border: none;
+}
+
+.container-plan-selector{
+	background-color: #FFFFFF;
+	text-align: center;
+	box-shadow: 2px 2px 2px #7E7E7E;
+	border-width:0.5px;
+	border-radius: 40px;
+	padding: 0.5rem;
+	margin: auto;
+	margin-bottom: 1.5rem;
+	width: 20%;
+	display: flex;
+}
+
+.monthly-btn{
+	position: relative;
+	background-color: #24C380;
+	border: none;
+	color: #FFFFFF;
+	border-radius: 40px;
+	width: 90px;
+	height: 40px;
+	margin: auto;
+}
+
+.annualy-btn{
+	position: relative;
+	background-color: #E3FDF4;
+	border: none;
+	color: #24C380;
+	border-radius: 40px;
+	width: 90px;
+	height: 40px;
+	margin: auto;
+}
+
+#btn-1:hover{
+	background-color: #FFFFFF;
+	color: #24C380;
+	border-color: #24C380;
+	border-style: solid;
+	border-width:0.5px;
+}
+
+#btn-2:hover{
+	background-color: #FFFFFF;
+	color: #24C380;
+	border-color: #24C380;
+	border-style: solid;
+	border-width:0.5px;
+}
+
+.cards{
+	margin: auto;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.container-image{
+	margin: auto;
+	width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color:#24C380;
+}
+
+.img-plan{
+	height: 50%;
+	margin: auto;
+	width: 50%;
+	margin-top: 1.2rem;
+}
+
+.card{
+	height: 500px;
+	width: 32%;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #7E7E7E;
+	text-align: center;
+}
+
+.card-title{
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.card-price{
+	font-size: 3rem;
+	text-align: center;
+}
+
+h2{
+	margin-top: 1rem;
+}
+
+h2>span{
+	font-size: 1rem;
+	font-weight: lighter;
+}
+
+.card ul{
+	text-align: center;
+	font-size: 0.9rem;
+	font-weight: lighter;
+	margin-top: 3rem;
+}
+
+.card ul li{
+	margin-bottom: 0.7rem;
+}
+
+.card-btn{
+	margin-top: 4rem;
+	width: 80%;
+	background-color: #24C380;
+	border: none;
+	border-radius: 40px;
+	color: #FFFFFF;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+#card-1 .card-btn:hover{
+	background-color: #FFFFFF;
+	color: #24C380;
+	border-color: #24C380;
+	border-style: solid;
+	border-width:0.5px;
+}
+
+#card-2 .card-btn:hover{
+	background-color: #FFFFFF;
+	color: #24C380;
+	border-color: #24C380;
+	border-style: solid;
+	border-width:0.5px;
+}
+
+#card-3 .card-btn:hover{
+	background-color: #FFFFFF;
+	color: #24C380;
+	border-color: #24C380;
+	border-style: solid;
+	border-width:0.5px;
+}
+
+@media (max-width: 1100px){
+	.container{
+		justify-content: center;
+		width: 80%;
+		margin-bottom: -30rem;
+	}
+
+	.container-plan-selector{
+		width: 25%;
+	}
+
+	.cards{
+		justify-content: center;
+	}
+	.card{
+		width: 40%;
+		margin: 2rem;
+	}
+}
+
+@media (max-width: 1020px){
+
+	.container{
+		justify-content: center;
+		width: 80%;
+		margin-bottom: -60rem;
+	}
+
+	.container-plan-selector{
+		width: 25%;
+	}
+
+	.card{
+		width: 50%;
+	}
+}
+
+@media (max-width: 1000px){
+
+	.container{
+		justify-content: center;
+		width: 80%;
+		margin-bottom: -60rem;
+	}
+
+	.container-plan-selector{
+		width: 25%;
+	}
+
+	.card{
+		width: 50%;
+	}
+}
+
+@media (max-width: 660px){
+
+	.container{
+		justify-content: center;
+		width: 80%;
+		margin-bottom: -65rem;
+	}
+
+	.container-plan-selector{
+		width: 40%;
+	}
+
+	.card{
+		width: 70%;
+	}
+}
+
+@media (max-width: 375px){
+
+	.container{
+		justify-content: center;
+		width: 80%;
+		margin-bottom: -80rem;
+	}
+
+	.container-plan-selector{
+		width: 65%;
+	}
+
+	.card{
+		width: 110%;
+	}
+}
