@@ -15,8 +15,8 @@
 		<hr>
 
 		<div class="container-plan-selector">
-			<button type="button" class="monthly-btn" id="btn-1">Monthly</button>
-			<button type="button" class="annualy-btn" id="btn-2">Annualy</button>
+			<button type="button" class="monthly-btn" onclick="toggleMonthly();" id="btn-1">Monthly</button>
+			<button type="button" class="annualy-btn" onclick="toggleAnually();" id="btn-2">Annualy</button>
 		</div>
 		<div class="cards">
 		<!-- Basic plan -->
@@ -25,7 +25,7 @@
 				<div class="container-image">
 					<img src="images/grafico-de-torta.png" class="img-plan">
 				</div>
-				<h2 class="card-price" id="basic-price"> $39 <span> / monthly </span> </h2>
+				<h2 class="card-price annualy-plan" id="basic-price"> $39 <span> / monthly </span> </h2>
 				<ul class="card-plan">
 					<li>1 GB Diskspace</li>
 					<li>10 GB Bandwith</li>
@@ -42,7 +42,7 @@
 				<div class="container-image">
 					<img src="images/grafico-de-linea.png" class="img-plan">
 				</div>
-				<h2 class="card-price" id="premium-price"> $49 <span> / monthly </span> </h2>
+				<h2 class="card-price annualy-plan" id="premium-price"> $49 <span> / monthly </span> </h2>
 				<ul class="card-plan">
 					<li>5 GB Diskspace</li>
 					<li>50 GB Bandwith</li>
@@ -59,7 +59,7 @@
 				<div class="container-image">
 					<img src="images/edificio-de-oficinas.png" class="img-plan">
 				</div>				
-				<h2 class="card-price" id="business-price"> $59 <span> / monthly </span> </h2>
+				<h2 class="card-price annualy-plan" id="business-price"> $59 <span> / monthly </span> </h2>
 				<ul class="card-plan">
 					<li>20 GB Diskspace</li>
 					<li>100 GB Bandwith</li>
