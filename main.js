@@ -1,7 +1,7 @@
 var clicked = false;
-const anuallyBasic = "$439 <span> / anually </span>"
-const anuallyPremium = "$539 <span> / anually </span>"
-const anuallyBusiness = "$639 <span> / anually </span>"
+const annualyBasic = "$439 <span> / annualy </span>"
+const annualyPremium = "$539 <span> / annualy </span>"
+const annualyBusiness = "$639 <span> / annualy </span>"
 
 function toggleMonthly(){
 	if(!clicked){
@@ -15,12 +15,12 @@ function toggleMonthly(){
 	}
 }
 
-function toggleAnually(){
+function toggleAnnualy(){
 	if(!clicked){
 		clicked = true;
-		document.getElementById("basic-price").innerHTML = anuallyBasic
-		document.getElementById("premium-price").innerHTML = anuallyPremium
-		document.getElementById("business-price").innerHTML = anuallyBusiness
+		document.getElementById("basic-price").innerHTML = annualyBasic
+		document.getElementById("premium-price").innerHTML = annualyPremium
+		document.getElementById("business-price").innerHTML = annualyBusiness
 	}
 	else{
 		clicked = false;
